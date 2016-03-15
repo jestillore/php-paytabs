@@ -1,0 +1,46 @@
+{
+    "name": "jestillore/paytabs",
+    "type": "library",
+    "description": ":package_description",
+    "keywords": [
+        "php",
+        "paytabs"
+    ],
+    "homepage": "https://github.com/jestillore/php-paytabs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jillberth Estillore",
+            "email": "ejillberth@gmail.com",
+            "homepage": "http://ejillberth.xyz",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "jestillore\\PayTabs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jestillore\\PayTabs\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
