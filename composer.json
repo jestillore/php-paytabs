@@ -1,7 +1,7 @@
 {
     "name": "jestillore/paytabs",
     "type": "library",
-    "description": ":package_description",
+    "description": "PHP PayTabs Library",
     "keywords": [
         "php",
         "paytabs"
