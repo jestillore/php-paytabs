@@ -42,9 +42,9 @@ If you discover any security related issues, please email ejillberth@gmail.com i
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/jestillore/php-paytabs.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/jestillore/paytabs.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/jestillore/php-paytabs.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/jestillore/paytabs.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/jestillore/paytabs
 [link-downloads]: https://packagist.org/packages/jestillore/paytabs
