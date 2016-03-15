@@ -1,10 +1,10 @@
 <?php
 
-namespace jestillore\paytabs;
+namespace jestillore\PayTabs;
 
 use Illuminate\Support\ServiceProvider;
 
-class paytabsServiceProvider extends ServiceProvider
+class PayTabsServiceProvider extends ServiceProvider
 {
     /**
      * Perform post-registration booting of services.
