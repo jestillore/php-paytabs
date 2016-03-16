@@ -103,14 +103,17 @@ class PayTabs {
 
         $result = json_decode($res);
 
-        return [
+        $page = [
             'result' => $result->result,
             'responseCode' => $result->response_code,
             'paymentUrl' => $result->payment_url,
-            'payPageId' => $result->p_id,
             'success' => $result->response_code == 4012
         ];
 
+        if ($page['success'])
+            $page['payPageId'] = $result->p_id;
+
+        return $page;
     }
 
     public function verifyPayment($options) {
